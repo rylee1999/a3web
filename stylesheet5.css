@@ -1,1 +1,15 @@
+.image {
+	background-image: "header-imge.jpg";
+}
 
+.header-start {
+	padding-top: 50px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+.header-end { 
+  color: white;
+	font-size: 14px;
+	text-align: center;
+}

@@ -28,12 +28,14 @@ h3 {
 .content-div{
 	max-width:1800px;
 	margin: auto;
+	padding: none;
 	padding-top: 8px!important; 
 	padding-bottom: 8px!important; 
 }
 .text-dive{
 	margin: auto;
 	box-sizing: inherit;
+	padding: none;
 	padding-top: 32px!important;
 	padding-bottom: 32px!important;
 }

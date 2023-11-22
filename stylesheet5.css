@@ -28,7 +28,8 @@ h3 {
 .content-div{
 	max-width:1800px;
 	margin: auto;
-	padding: 8px 16px!important; 
+	padding-top: 8px!important; 
+	padding-bottom: 8px!important; 
 }
 .text-dive{
 	margin: auto;

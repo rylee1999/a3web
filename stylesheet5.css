@@ -1,5 +1,5 @@
 .image {
-	 background: url ('header-image.jpg')
+	 background: Teal
 }
 
 .header-start {
@@ -12,4 +12,5 @@
   color: white;
 	font-size: 14px;
 	text-align: center;
+	padding-top: 25px;
 }

@@ -11,7 +11,7 @@
 	text-align: center;
 }
 body {
-	background-color:black:
+	background-color:black;
 }
 .header-end { 
   	color: white;
@@ -48,7 +48,7 @@ h3 {
 	padding-bottom: 32px!important;
 }
 
-footer{
+footer {
 	background-color: white!important;
 	color: black!important;
 }

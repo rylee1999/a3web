@@ -24,3 +24,7 @@ h3 {
    	padding-bottom: 16px;
 	border-bottom: 1px solid
 	border-color: #f1f1f1;
+.content-div{
+	max-width:1564px;
+	padding: 8px 16px;
+}

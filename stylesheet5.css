@@ -58,9 +58,17 @@ h3 {
 
 /* Dropdown Menu - started by Matthew D.*/
 .dropbtn {
-  background-color: black;
-  color: white;
-  border: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
 }
 
 /* The container <div> - needed to position the dropdown content */

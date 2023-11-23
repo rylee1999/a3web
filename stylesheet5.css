@@ -64,7 +64,7 @@ h3 {
   overflow: hidden;
 }
 
-.dropdown .dropbtn {
+.dropdown .dropbtn, .g5stylebtn {
     border: none;
     padding: 8px 16px;
     vertical-align: middle;
@@ -132,6 +132,22 @@ h3 {
     padding-bottom: 20px;
 
 }
+
+/*making the darkmode-lightmode button look pretty*/
+.g5stylebtn {
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
 /*The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.*/
 #Footer-ul {
     padding: 0;

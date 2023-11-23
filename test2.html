@@ -63,7 +63,16 @@
 
   <!-- About Section -->
   <div class="w3-container w3-padding-32 text-dive" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">About</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding" onmouseover="content()" onmouseout="about()">About</h3>
+	<script>
+	function content() {
+  	document.getElementById("demo").style.color = "red";
+	}
+
+	function about() {
+  	document.getElementById("demo").style.color = "black";
+	}
+</script>
   </div>
   
 <!-- End page content -->

@@ -70,6 +70,7 @@ h3 {
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
+    letter-spacing: 4px;
     color: white;
     background-color: black;
     text-align: center;
@@ -108,7 +109,7 @@ h3 {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #D8BFD8;
 }
 
 /*Draft Footer started by Faith B.*/

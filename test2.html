@@ -1,171 +1,102 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Group 5 </title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> MEAFMR CONSULTING LLC </title>
 <link rel="stylesheet" href="stylesheet.css">
-<link rel="stylesheet" href="stylesheet5.css">
+<link id="g5style" rel="stylesheet" href="stylesheet5.css">
+  <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+	//switches the .css to our default sheet
+	function light() {
+		document.getElementById("g5style").href = "stylesheet5.css";
+		document.getElementById("display").innerHTML = "Darkmode";
+		document.getElementById("display").onclick = dark;
+	}
+	
+	function dark() {
+		document.getElementById("g5style").href = "darkmode.css";
+		document.getElementById("display").innerHTML = "Lightmode";
+		document.getElementById("display").onclick = light;
+	}
+</script>
 </head>
 <body>
 
-<div class="top">
-  <div class="navbar">
-    <a href="index.html" class="navbar-item navbar-button">Meafmr Consutlting</a>
+<!-- Navbar (sit on top) November 16,2023-->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="index.html" class="w3-bar-item w3-button">MEAFMR Consulting</a>
     <!-- Float links to the right. -->
     <div class="w3-right w3-hide-small">
-      <a href="about.html" class="navbar-item navbar-button">About</a>
-      <a href="projects.html" class="navbar-item navbar-button">Projects</a>
-      <a href="contacts.html" class="navbar-item navbar-button">Contact</a>
-	  <div class="dropdown">
-		<button class="dropbutton">More
-			<i class="fa fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-			<a href="investors.html">Investors</a>
-			<a href="newsletter.html">Newsletter</a>
-		</div>
+      <a href="about.html" class="w3-bar-item w3-button">About</a>
+      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
+      <a href="contacts.html" class="w3-bar-item w3-button">Contact</a>
+      <div class="dropdown">
+          <button class="dropbtn">More</button>
+          <div class="dropdown-content">
+              <a href="services.html">Services</a>
+              <a href="newsletter.html">Newsletter</a>
+              <a href="careers.html">Careers</a>
+			  <button class ="g5stylebtn" id="display" type="button" onclick="dark()">Darkmode</button>
+          </div>
+      </div> 
     </div>
   </div>
 </div>
 
-
-<!-- Matthew De Matos Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <img class="w3-image" src="/w3images/architect.jpg" alt="Architecture" width="1500" height="800">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+<!-- Header -->
+<header>
+  <div class="image">
+    <h1 class= "header-start"> MEAFMR CONSULTING LLD </h1>
+    <p class = "header-end"> Since 2023 </p>
   </div>
 </header>
 
 <!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
+<div class="w3-content w3-padding content-div">
 
   <!-- Project Section -->
-  <div class="w3-container w3-padding-32" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Content</h3>
+  <div class="w3-container w3-padding-32 text-dive" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">Projects</h3>
   </div>
-
-  <div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:100%">
-      </div>
-    </div>
-  </div>
-
-  <!--<div class="w3-row-padding">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-        <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-        <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-      </div>
-    </div>
-  </div>-->
 
   <!-- About Section -->
-  <!--About Eofor-->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p> EOFOR IRENHEARD
-    </p>
+  <div class="w3-container w3-padding-32 text-dive" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">About</h3>
   </div>
-
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>squad gang</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>building building </p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-  </div>
-
-  <!-- Contact Section April Mcbay
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-      </button>
-    </form>
-  </div>-->
   
-<!-- Image of location/map RyleeGoerlitz -->
-<div class="w3-container">
-  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-</div>
-
 <!-- End page content -->
 </div>
 
 
 <!-- Footer Faith-->
-<footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+<!-- Draft Footer by Faith-->
+<footer class="w3-center w3-black w3-padding-16 footer-dark bottom" id="footer">
+  <h3 id = "FooterTitle" >MEAFMR CONSULTING LLC</h3>
+  <p id = "FooterTagline">Tagline</p>
+  <ul id="Footer-ul">
+    <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="About.html">About</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="Careers.html">Careers</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="Contact.html">Contact</a> </li>
+  </ul>
+  <!--to do a two column footer, the code and ideas from w3schools.com was used:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
+  <div class = "FT-row">
+    <div class="FT-columnA">
+        <h2>Follow Us</h2>
+        <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+        <p><a href="#" class="fa fa-instagram"></a> @MEAFMR_Consulting </p>
+        <p>www.linkedin.com/in/MEAFMR </p>
+    </div>
+    <div class="FT-columnB">
+        <h2>Contact Us</h2>
+        <p> 577 River Road, Toronto, ON, L4P 6N4</p>
+        <p> 647-286-4220</p>
+    </div>
+  </div>
+  <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
+  <p id="Copyright">&copy; 2023 MEAFMR. All right reserved. </p>
 </footer>
 
 </body>

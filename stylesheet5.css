@@ -121,6 +121,7 @@ h2 {
 
 .bottom{
     bottom: 0;
+    left: 0;
     width: 100%;
     position: fixed;
     z-index: 1
@@ -128,7 +129,9 @@ h2 {
 #footer{
     background-color: rgb(82, 95, 119);
     margin-top: 25px;
-
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*making the darkmode-lightmode button look pretty*/

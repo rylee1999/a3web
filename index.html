@@ -3,9 +3,23 @@
 <head>
 <title> MEAFMR CONSULTING LLC </title>
 <link rel="stylesheet" href="stylesheet.css">
-<link rel="stylesheet" href="stylesheet5.css">
+<link id="g5style" rel="stylesheet" href="stylesheet5.css">
   <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+	//switches the .css to our default sheet
+	function light() {
+		document.getElementById("g5style").href = "stylesheet5.css";
+		document.getElementById("display").innerHTML = "Darkmode";
+		document.getElementById("display").onclick = dark;
+	}
+	//switches the .css to a darkmode sheet
+	function dark() {
+		document.getElementById("g5style").href = "darkmode.css";
+		document.getElementById("display").innerHTML = "Lightmode";
+		document.getElementById("display").onclick = light;
+	}
+</script>
 </head>
 <body>
 
@@ -24,6 +38,7 @@
               <a href="services.html">Services</a>
               <a href="newsletter.html">Newsletter</a>
               <a href="careers.html">Careers</a>
+			  <button class ="dropbtn" id="display" type="button" onclick="dark()">Darkmode</button>
           </div>
       </div> 
     </div>

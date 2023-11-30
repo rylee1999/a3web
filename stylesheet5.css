@@ -1,9 +1,9 @@
 .image {
-	 background: #4C704C ;
+	 background: #4C704C;
 }
 
 .header-start {
-	padding-top: 50px;
+	padding-top: 110px;
 	color: Black;
 	font-family: "Segoe UI",Arial,sans-serif;
 	font-size: 24px;
@@ -19,7 +19,11 @@
 	text-align: center;
 	padding-bottom: 25px;
 		letter-spacing: 4px
+} 
 
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 #click {

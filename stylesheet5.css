@@ -1,5 +1,5 @@
 .image {
-	 background: #D8BFD8;
+	 background: #9FDC71 ;
 }
 
 .header-start {
@@ -115,7 +115,7 @@ h2 {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #D8BFD8;
+  background-color: #9FDC71 ;
 }
 
 /*Draft Footer started by Faith B.*/
@@ -142,7 +142,7 @@ h2 {
 	
 }
 #footer{
-    background-color: #D8BFD8;
+    background-color: #9FDC71 ;
    /* margin-top: 25px;
     padding-top: 20px;
     padding-bottom: 20px; */

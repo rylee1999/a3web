@@ -26,6 +26,10 @@
 	display: none;
 }
 
+p { font-family: "Segoe UI",Arial,sans-serif;
+   text-align: center;
+   font-size: 14px;
+}
 h2 {
 	font-family: "Segoe UI",Arial,sans-serif;
 	padding-top: 16px;

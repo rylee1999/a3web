@@ -65,7 +65,7 @@
   <div class="w3-container w3-padding-32 text-dive" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">Gallery</h3>
 	<script>
-	function light(sw) {
+	function pickles(sw) {
  	 var pic;
   	if (sw == 0) {
    	 pic = "7pickles.jpg"
@@ -79,11 +79,28 @@
 	<img id="myImage" src="7pickles.jpg">
 
 	<p>
-	<button type="button" onclick="light(1)">Gum</button>
-	<button type="button" onclick="light(0)">Pickles</button>
+	<button type="button" onclick="pickles(1)">Gum</button>
+	<button type="button" onclick="pickles(0)">Pickles</button>
 	</p>
 
-	  
+	 <script>
+	function grapes(sw) {
+ 	 var pic;
+  	if (sw == 0) {
+   	 pic = "grapes.png"
+  	} else {
+    	pic = "poot.jpg"
+ 	 }
+  	document.getElementById('myImage').src = pic;
+	}
+	</script>
+
+	<img id="myImage" src="grapes.png">
+
+	<p>
+	<button type="button" onclick="grapes(1)">Grapes</button>
+	<button type="button" onclick="grapes(0)">Scare</button>
+	</p> 
   
 <!-- End page content -->
 </div>

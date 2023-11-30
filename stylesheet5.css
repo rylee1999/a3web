@@ -27,7 +27,7 @@
 }
 
 p { font-family: "Segoe UI",Arial,sans-serif;
-   font-size: 14px;
+   font-size: 18px;
 }
 h1 {    font-family: "Segoe UI",Arial,sans-serif;
     	font-size: 35px;
@@ -41,6 +41,12 @@ h2 {
 	border-bottom: 1px solid
 	border-color: #f1f1f1;
 	letter-spacing: 4px
+}
+h3  { 
+	font-family: "Segoe UI",Arial,sans-serif;
+	font-size: 20px;
+	color: Black;
+	border-bottom: 3px solid #ccc!important;
 }
 .content-div{
 	max-width:1800px;

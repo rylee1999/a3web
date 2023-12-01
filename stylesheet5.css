@@ -219,11 +219,24 @@ h3  {
 .FT-columnB{
     text-align: right;
     padding-right: 45px;
+    padding-left: 115px;
+    margin-left: 50px;
 }
 .FT-columnA{
     padding-left: 45px;
+    padding-right: 115px;
+    margin-right: 50px;
     text-align: left;
 }
 #Copyright{
     text-align: center;
+}
+/*Team Managment Page CSS By FaithB*/
+.Left_Align{
+    text-align: justify;
+    font-size: 14px;
+}
+.Right_Align{
+    text-align: justify;
+    font-size: 14px;
 }

@@ -240,3 +240,12 @@ h3  {
     text-align: justify;
     font-size: 14px;
 }
+#HeaderImage{
+    background-image: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}

@@ -26,26 +26,35 @@
 <!-- Navbar (sit on top) November 16,2023-->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="index.html" class="w3-bar-item w3-button">MEAFMR Consulting</a>
+    <a href="index.html" class="w3-bar-item w3-button"><img src="Images/TN_Logo.png" class="logo"></a>
     <!-- Float links to the right. -->
     <div class="w3-right w3-hide-small">
-      <a href="about.html" class="w3-bar-item w3-button">About</a>
-      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
-      <a href="contacts.html" class="w3-bar-item w3-button">Contact</a>
       <div class="dropdown">
-          <button class="dropbtn">More</button>
+          <button class="dropbtn">Services</button>
           <div class="dropdown-content">
-              <a href="services.html">Services</a>
-              <a href="newsletter.html">Newsletter</a>
-              <a href="meetthemanagement.html">Meet the Management</a>
-	      <a href="meetthetechs.html">Meet the Techs</a>
-              <a href="investors.html">Meet the Investors</a>
-              <a href="sustainability.html">Sustainability</a>
-	      <a href="gallery.html">Gallery</a>
-              <a href="careers.html">Careers</a>
-			  <button class ="g5stylebtn" id="display" type="button" onclick="dark()">Darkmode</button>
+              <a href="services.html"> Our Services</a>
+              <a href="projects.html">Projects</a>
           </div>
       </div> 
+      <div class="dropdown">
+        <button class="dropbtn">Team</button>
+        <div class="dropdown-content">
+          <a href="meetthetechs.html">Technicians</a>
+            <a href="meetthemanagement.html">Senior Leadership</a>
+            <a href="investors.html">Investors</a>
+            <a href="careers.html">Careers</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">About</button>
+        <div class="dropdown-content">
+            <a href="about.html">Our Story</a>
+            <a href="newsletter.html">Newsletter</a>
+            <a href="sustainability.html">Sustainability</a>
+            <a href="gallery.html">Gallery</a>
+        </div>
+        <a href="contacts.html" class="w3-bar-item w3-button">Contact</a>
+      </div>
     </div>
   </div>
 </div>
@@ -53,7 +62,7 @@
 <!-- Header -->
 <header>
   <div class="image">
-    <h1 class= "header-start"> MEAFMR CONSULTING LLD </h1>
+    <h1 class= "header-start"> TRUE NORTH CONSULTING </h1>
     <p class = "header-end"> Since 2023 </p>
   </div>
 </header>
@@ -65,7 +74,33 @@
   <div class="w3-container w3-padding-32 text-dive" id="projects">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">Projects</h3>
   </div>
-
+   <!--Meet the founders section by FayB-->
+   <div class = "FT-row">
+    <div class="FT-columnA">
+        <h3><img src="Images\MocManagmentResize2.png"alt="Jessica Fraiser in stick figure drawing form">Jessica Frasier</h3>
+        <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+        <h4>Founder and CEO</h4>
+        <p class="Left_Align">Jessica fuels the True North Consulting with her expertise and passion for the GIS industry and a special care for the environment that has led to an industry leading company. For over 40 years working with spatial data and working for renowned companies like ESRI, Jessica is a powerhouse and enthusiastic for the future of True North Consulting.</p>
+        <h3><img src="Images\MocManagmentResize2.png" alt="Eleana Domanic in stick figure drawing form">Eleana Domanic</h3>
+        <h4>President</h4>
+        <p class="Right_Align"> A founding partner, Michael has been in the environmental sector for 30 year. Working in projects all over Canada, and then moving into management roles, Michael is experienced in both the public and private industry and brings his much needed experience and vision for the company. </p>
+        <h3><img src="Images\MocManagmentResize2.png"alt="Kealy Gruen in stick figure drawing form">Kealy Gruen</h3>
+        <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+        <h4>Environmental Department Manager </h4>
+        <p class="Left_Align">15 years of in the field work has guided Kealy's career and with 10 year in management, there isn't a better individual to be leading the Environmental Department.</p>
+    </div>
+    <div class="FT-columnB">
+        <h3>Michael Johnson<img src="Images\MocManagmentResize.png" alt="Michael Johnson in stick figure drawing form"></h3>
+        <h4>Vice President</h4>
+        <p class="Right_Align"> A founding partner, Michael has been in the environmental sector for 30 year. Working in projects all over Canada, and then moving into management roles, Michael is experienced in both the public and private industry and brings his much needed experience and vision for the company. </p>
+        <h3>Stephanie Blonce<img src="Images\MocManagmentResize2.png" alt="Stephanie Blonce in stick figure drawing form"></h3>
+        <h4>GIS Department Manager</h4>
+        <p class="Right_Align"> A world renowned cartography specialist, Stephanie has a keen eye for geographic data and spatial problems. Staring her career at True North Consulting 30 years ago, Stephanie is a powerhouse as the GIS Department Manager.</p>
+        <h3>Bruno Greggor<img src="Images\MocManagmentResize.png" alt="Bruno Greggor in stick figure drawing form"></h3>
+        <h4>General Manager</h4>
+        <p class="Right_Align"> A world renowned cartography specialist, Stephanie has a keen eye for geographic data and spatial problems. Staring her career at True North Consulting 30 years ago, Stephanie is a powerhouse as the GIS Department Manager.</p>
+    </div>
+  </div>
   <!-- About Section -->
   <div class="w3-container w3-padding-32 text-dive" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">About</h3>
@@ -78,8 +113,8 @@
 <!-- Footer Faith-->
 <!-- Draft Footer by Faith-->
 <footer class="w3-center w3-padding-16 bottom" id="footer">
-  <h2 id = "FooterTitle" >MEAFMR CONSULTING LLC</h2>
-  <p id = "FooterTagline">Tagline</p>
+  <h2 id = "FooterTitle" >TRUE NORTH CONSULTING LLC</h2>
+  <p id = "FooterTagline">Guiding the way forward</p>
   <ul id="Footer-ul">
     <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
     <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="about.html">About</a></li>
@@ -91,8 +126,11 @@
     <div class="FT-columnA">
         <h3>Follow Us</h3>
         <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-        <p><a href="#" class="fa fa-instagram"></a> @MEAFMR_Consulting </p>
-        <p>www.linkedin.com/in/MEAFMR </p>
+        <p><a href="#" class="fa fa-instagram"></a> @True_North_Consulting </p>
+        <p>www.linkedin.com/in/TrueNorthConsulting </p>
+    </div>
+    <div class = "FT-columnM">
+      <img src="Images/TN_Logo.png">
     </div>
     <div class="FT-columnB">
         <h3>Contact Us</h3>
@@ -101,7 +139,7 @@
     </div>
   </div>
   <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
-  <p id="Copyright">&copy; 2023 MEAFMR. All rights reserved. </p>
+  <p id="Copyright">&copy; 2023 True North Consulting. All rights reserved. </p>
 </footer>
 
 </body>

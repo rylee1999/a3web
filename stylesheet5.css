@@ -1,7 +1,10 @@
 .image {
-	 background: #4C704C;
+	 /*background: #4C704C;*/
+    background-image: url("Images/header-image.JPG");
+    min-height: 55vh;
+    background-size: cover;
+    background-position: center;
 }
-
 .header-start {
 	padding-top: 110px;
 	color: Black;
@@ -13,12 +16,12 @@
 
 }
 .header-end { 
-  color: Black;
+    color: Black;
 	font-size: 16px;
 	font-family: "Segoe UI",Arial,sans-serif;
 	text-align: center;
 	padding-bottom: 25px;
-		letter-spacing: 4px
+    letter-spacing: 4px
 } 
 
 .logo {
@@ -239,13 +242,4 @@ h3  {
 .Right_Align{
     text-align: justify;
     font-size: 14px;
-}
-#HeaderImage{
-    background-image: inherit;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -99;
 }

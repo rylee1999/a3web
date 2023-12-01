@@ -1,32 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> MEAFMR CONSULTING LLC </title>
+<title> True North Consulting LLC </title>
 <link rel="stylesheet" href="stylesheet.css">
 <link id="g5style" rel="stylesheet" href="stylesheet5.css">
   <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script>
-	//switches the .css to our default sheet
-	function light() {
-		document.getElementById("g5style").href = "stylesheet5.css";
-		document.getElementById("display").innerHTML = "Darkmode";
-		document.getElementById("display").onclick = dark;
-	}
 	
-	function dark() {
-		document.getElementById("g5style").href = "darkmode.css";
-		document.getElementById("display").innerHTML = "Lightmode";
-		document.getElementById("display").onclick = light;
-	}
 </script>
 </head>
 <body>
 
 <!-- Navbar (sit on top) November 16,2023-->
-<div class="w3-top">
+<div class="w3-top topnav" id="myTopnav">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="index.html" class="w3-bar-item w3-button">MEAFMR Consulting</a>
+    <a href="index.html" class="w3-bar-item w3-button">True North Consulting LLC</a>
     <!-- Float links to the right. -->
     <div class="w3-right w3-hide-small">
       <a href="about.html" class="w3-bar-item w3-button">About</a>
@@ -43,7 +32,9 @@
               <a href="sustainability.html">Sustainability</a>
 	      <a href="gallery.html">Gallery</a>
               <a href="careers.html">Careers</a>
-			  <button class ="g5stylebtn" id="display" type="button" onclick="dark()">Darkmode</button>
+	 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i> 
+	 </a>
           </div>
       </div> 
     </div>
@@ -53,7 +44,7 @@
 <!-- Header -->
 <header>
   <div class="image">
-    <h1 class= "header-start"> MEAFMR CONSULTING LLD </h1>
+    <h1 class= "header-start"> True North Consulting LLC </h1>
     <p class = "header-end"> Since 2023 </p>
   </div>
 </header>
@@ -78,7 +69,7 @@
 <!-- Footer Faith-->
 <!-- Draft Footer by Faith-->
 <footer class="w3-center w3-padding-16 bottom" id="footer">
-  <h2 id = "FooterTitle" >MEAFMR CONSULTING LLC</h2>
+  <h2 id = "FooterTitle" > True North Consulting LLC </h2>
   <p id = "FooterTagline">Tagline</p>
   <ul id="Footer-ul">
     <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
@@ -91,17 +82,17 @@
     <div class="FT-columnA">
         <h3>Follow Us</h3>
         <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-        <p><a href="#" class="fa fa-instagram"></a> @MEAFMR_Consulting </p>
-        <p>www.linkedin.com/in/MEAFMR </p>
+        <p><a href="#" class="fa fa-instagram"></a> @TrueNorth_Consulting </p>
+        <p>www.linkedin.com/in/TrueNorthConsulting </p>
     </div>
     <div class="FT-columnB">
         <h3>Contact Us</h3>
         <p> 577 River Road, Toronto, ON, L4P 6N4</p>
-        <p> 647-286-4220</p>
+        <p> 647-286-4220 </p>
     </div>
   </div>
   <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
-  <p id="Copyright">&copy; 2023 MEAFMR. All rights reserved. </p>
+  <p id="Copyright">&copy; 2023 True North Consulting LLC. All rights reserved. </p>
 </footer>
 
 </body>

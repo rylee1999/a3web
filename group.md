@@ -1,3 +1,33 @@
+Page Assignments
+
+MAYA:
+Gallery
+Careers
+
+APRIL:
+About Us
+Sustainability
+
+RYLEE:
+Projects
+Meet the Techs
+
+FAITH:
+Meet the Management
+Newsletter
+
+
+MATTHEW:
+Investors
+Contacts
+
+EOFOR:
+Services
+Index (PHARAOH PAGE)
+
+
+
+
 PLEASE MAKE CHNAGES AS THEY COME AND ADD MARKING WHEN COMPLETED xmpl. (finsihed on DATE by NAME)
 
 THINGS TO BE DONE BEFORE NEXT WEEK (hard deadline lab wk 12, Nov. 23rd @ 1pm, soft deadline Nov. 22nd) TO FINALIZE TEMPLATE (completed at same time):

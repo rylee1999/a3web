@@ -1,16 +1,11 @@
 .imageHeader {
-	 /*background: #4C704C;*/
-    background-image: url("Images/header-image_Clip.JPG");
+    background-image: url("Images/header-image.JPG");
     min-height: 30vh;
     background-size: cover;
     background-position: center;
 }
 .HeaderBoarder {
     background: #4C704C;
-    background-image: url("Images/header-image.JPG");
-    min-height: 30vh;
-    background-size: cover;
-    background-position: center;
 }
 .header-start {
 	padding-top: 110px;

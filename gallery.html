@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> TRUE NORTH CONSULTING LLC </title>
+<title> MEAFMR CONSULTING LLC </title>
 <link rel="stylesheet" href="stylesheet.css">
 <link id="g5style" rel="stylesheet" href="stylesheet5.css">
   <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
@@ -26,7 +26,7 @@
 <!-- Navbar (sit on top) November 16,2023-->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="index.html" class="w3-bar-item w3-button">True North Consulting</a>
+    <a href="index.html" class="w3-bar-item w3-button"><img src="Images/TN_Logo.png" class="logo"></a>
     <!-- Float links to the right. -->
     <div class="w3-right w3-hide-small">
       <a href="about.html" class="w3-bar-item w3-button">About</a>
@@ -51,9 +51,9 @@
 </div>
 
 <!-- Header -->
-<header>
-  <div class="image">
-    <h1 class= "header-start"> TRUE NORTH CONSULTING LLD </h1>
+<header class="imageHeader" >
+  <div>
+    <h1 class= "header-start"> True North Consulting LLC </h1>
     <p class = "header-end"> Since 2023 </p>
   </div>
 </header>
@@ -68,38 +68,38 @@
 	function pickles(sw) {
  	 var pic;
   	if (sw == 0) {
-   	 pic = "7pickles.jpg"
+   	 pic = "Images/7pickles.jpg"
   	} else {
-    	pic = "9peicesofgum.jpg"
+    	pic = "Images/9peicesofgum.jpg"
  	 }
   	document.getElementById('myImage').src = pic;
 	}
 	</script>
 
-	<img id="myImage" src="7pickles.jpg">
+	<img id="myImage" src="Images/7pickles.jpg">
 
 	<p>
-	<button type="button" onclick="pickles(1)">Gum</button>
-	<button type="button" onclick="pickles(0)">Pickles</button>
+	<button type="button" onclick="pickles(0)">Gum</button>
+	<button type="button" onclick="pickles(1)">Pickles</button>
 	</p>
 
 	 <script>
 	function grapes(sw) {
  	 var pic;
   	if (sw == 0) {
-   	 pic = "grapes.png"
+   	 pic = "grapes.jpg"
   	} else {
-    	pic = "poot.jpg"
+    	pic = "Images/poot.jpg"
  	 }
   	document.getElementById('myImage2').src = pic;
 	}
 	</script>
 
-	<img id="myImage2" src="grapes.png">
+	<img id="myImage2" src="grapes.jpg">
 
 	<p>
-	<button type="button" onclick="grapes(1)">Grapes</button>
-	<button type="button" onclick="grapes(0)">Scare</button>
+	<button type="button" onclick="grapes(0)">Grapes</button>
+	<button type="button" onclick="grapes(1)">Poot</button>
 	</p> 
   
 <!-- End page content -->

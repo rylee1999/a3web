@@ -303,3 +303,32 @@ h4 {
         display: flex;
     }
 }
+/*Newsletter specific css by FayB*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.ExpandingButton{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c704c7a;
+    color: black;
+    cursor: pointer;
+    padding:1.5em;
+    margin-bottom: .3em;
+    border:none;
+    font-size: 15px;
+}
+.Article {
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        line-height: 1.5;
+
+    }
+    
+.ExpandingButton:hover{
+    background-color: #377e55;
+}

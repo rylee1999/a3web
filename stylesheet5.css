@@ -1,15 +1,18 @@
 .image {
 	 /*background: #4C704C;*/
-    background-image: url("Images/header-image.JPG");
-    min-height: 55vh;
+    background-image: url("Images/header-image_Clip.JPG");
+    min-height: 55px;
     background-size: cover;
     background-position: center;
+}
+.HeaderBoarder {
+    background: #4C704C;
 }
 .header-start {
 	padding-top: 110px;
 	color: Black;
 	font-family: "Segoe UI",Arial,sans-serif;
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
 		letter-spacing: 4px
@@ -23,7 +26,14 @@
 	padding-bottom: 25px;
     letter-spacing: 4px
 } 
-
+.header-Middle{ 
+    color: Black;
+	font-size: 16px;
+	font-family: "Segoe UI",Arial,sans-serif;
+	text-align: center;
+	padding-bottom: 1px;
+    letter-spacing: 4px
+} 
 .logo {
     width: 40px;
     height: 40px;
@@ -36,8 +46,9 @@
 p { font-family: "Segoe UI",Arial,sans-serif;
    font-size: 18px;
 }
-h1 {    font-family: "Segoe UI",Arial,sans-serif;
-    	font-size: 35px;
+h1 {    
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 35px;
    	font-weight: bold;
 	text-align: center;
 }
@@ -72,10 +83,10 @@ h3  {
 
 
 .border-padding {
-        border-bottom: 0px solid #ccc!important;
+    border-bottom: 0px solid #ccc!important;
 	border-color: none;
 	padding-top: 10px!important;
-        padding-bottom: 10px!important;
+    padding-bottom: 10px!important;
 	border-color: #f1f1f1!important;
 } 
 
@@ -213,23 +224,29 @@ h3  {
 /*Creates row and column code to allow for two columns in the footer*/
 /*--to do a two column footer, the code and ideas from w3schools.com was used:https://www.w3schools.com/howto/howto_css_two_columns.asp*/
 .FT-row{
+    margin-left: 2%;
+    margin-left: 2%;
     display: flex;
     justify-content: space-between;
 }
 *{
     box-sizing: border-box;
 }
-.FT-columnB{
-    text-align: right;
-    padding-right: 45px;
-    padding-left: 115px;
-    margin-left: 50px;
-}
 .FT-columnA{
-    padding-left: 45px;
-    padding-right: 115px;
-    margin-right: 50px;
+    max-width: 50vw;
+    padding-left: 10%;
+    margin-right: 5%;
     text-align: left;
+}
+.FT-columnB{
+    max-width: 50vw;
+    text-align: right;
+    padding-right: 10%;
+    margin-left: 5%;
+}
+.FT-columnM{
+    max-width: 50vw;
+    padding-right: 75px;
 }
 #Copyright{
     text-align: center;
@@ -242,4 +259,10 @@ h3  {
 .Right_Align{
     text-align: justify;
     font-size: 14px;
+}
+/*Responsive section by Faith and Rylee*/
+.R_Image{
+    max-width: 100%;
+    max-height: 100%;
+    text-decoration: none;
 }

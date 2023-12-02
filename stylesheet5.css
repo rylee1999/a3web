@@ -1,7 +1,7 @@
 .imageHeader {
 	 /*background: #4C704C;*/
     background-image: url("Images/header-image_Clip.JPG");
-    min-height: 55px;
+    min-height: 30vh;
     background-size: cover;
     background-position: center;
 }

@@ -188,7 +188,9 @@ background-color: #333;
 }
 .topnav .icon {
   display: none;
-  background-color: #4C704C;
+}
+.icon:hover {
+background-color: #4C704C;
 }
 
 @media screen and (max-width: 600px) {

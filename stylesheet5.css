@@ -189,7 +189,7 @@ color: black;
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-background-color: #F0FFFF
+background-color: #D3D3D3;
 }
 
 /* Show the dropdown menu on hover */
@@ -199,7 +199,7 @@ background-color: #F0FFFF
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .topnav a:hover,.dropdown:hover .dropbtn {
-  background-color: #4C704C ;
+  background-color: #D3D3D3;
 }
 
 

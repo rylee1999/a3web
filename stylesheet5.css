@@ -103,7 +103,9 @@ h4, h5 {
    right: 0 !important;
    left: auto !important;
 }
-
+.titleleft {
+float: left;
+}
 .topnav {
 width:100%;
 overflow: hidden;

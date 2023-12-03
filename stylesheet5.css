@@ -111,11 +111,11 @@ box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 text-decoration: none;
 }
 .topnav a {
+text-decoration: none;
 display: block;
 font-family: Verdana,sans-serif;
 font-size: 15px;
-text-decoration: none;
-float: left;
+float:left;
 text-align: center;
 padding: 8px 16px;
 color: black;
@@ -133,7 +133,7 @@ color: black;
 /*added*/
 .dropdown {
     overflow: hidden;
-    float: right;
+    float: left;
 }
 
 .dropdown .dropbtn {

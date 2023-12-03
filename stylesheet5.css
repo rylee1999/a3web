@@ -186,11 +186,10 @@ background-color: #333;
   text-decoration: none;
   font-size: 17px;
 }
-.topnav .icon {
-  display: none;
-}
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -200,10 +199,9 @@ background-color: #333;
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
-    position: fixed;
+    position: absolute;
     right: 0;
     top: 0;
-    display: flex;
   }
   .topnav.responsive a {
     float: none;
@@ -211,7 +209,7 @@ background-color: #333;
     text-align: left;
   }
   .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: fixed;}
+  .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;

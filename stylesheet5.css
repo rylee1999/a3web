@@ -229,7 +229,7 @@ color: black;
     text-align: left;
   }
   .topnav.responsive .dropdown {
-float: right;
+float: left;
   }
   .topnav.responsive .dropdown-content {
 position: fixed;

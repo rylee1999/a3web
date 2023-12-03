@@ -103,10 +103,7 @@ h4, h5 {
    right: 0 !important;
    left: auto !important;
 }
-.topnav {
-  overflow: hidden;
-  background-color: white;
-}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;

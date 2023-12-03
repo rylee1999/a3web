@@ -132,7 +132,6 @@ background-color:white!important;
 /*added*/
 .dropdown {
     overflow: hidden;
-    display: inline-block;
     float: right;
 }
 

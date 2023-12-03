@@ -191,7 +191,7 @@ text-decorations: none;
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive  {
+  .topnav.responsive a {
    float: none;
    display: block;
    text-align: left;
@@ -203,7 +203,7 @@ text-decorations: none;
     display:block
   
   }
-  .topnav.responsive  {
+  .topnav.responsive a  {
     display: block;
     text-align: left;
   }

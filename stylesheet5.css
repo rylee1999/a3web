@@ -104,6 +104,34 @@ h4, h5 {
    left: auto !important;
 }
 
+.topnav{
+width:100%;
+oveeflow: hidden;
+color: #000!important;
+background-color: #fff!important;
+letter-spacing: 4px;
+padding: 8px 16px!important
+box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
 
 /*added*/
 .dropdown {
@@ -155,41 +183,34 @@ h4, h5 {
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+.topnav a:hover,.dropdown:hover .dropbtn {
   background-color: #4C704C ;
 }
 
 
-.dropdown {
-  display: hidden;
-  overflow: hidden;
-}
-
-
-}
 @media screen and (max-width: 600px) {
-  .dropdown a:not(:first-child), .dropdown-content .dropbtn {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
   }
-  .dropdown a.icon {
+  .topnav a.icon {
     float: right;
     display: block;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .dropdown.responsive {position: relative;}
-  .dropdown.responsive .icon {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .dropdown.responsive a {
+  .topnav.responsive a {
     float: none;
     display: block;
     text-align: left;
   }
-  .dropdown.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;

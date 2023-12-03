@@ -108,12 +108,17 @@ h4, h5 {
 overflow: hidden;
 background-color:white;
 box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+text-decorations: none;
 }
 .topnav a {
 display: block;
 font-family: Verdana,sans-serif;
 font-size: 15px;
 text-decorations: none;
+float: right;
+text-align: center;
+padding: 8px 16px;
+color: black;
 }
 }
 .active {

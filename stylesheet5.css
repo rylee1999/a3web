@@ -185,8 +185,8 @@ background-color:white!important;
 }
 
 
-@media screen and (max-width: 500px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn .dropdown-content {
     display: none;
   }
   .topnav a.icon {
@@ -195,7 +195,7 @@ background-color:white!important;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;

@@ -113,7 +113,7 @@ font-family:Verdana,sans-serif;
 }
 
 .dropdown-menu-right {
-   right: 0 !important;
+   right: auto !important;
    left: auto !important;
 }
 

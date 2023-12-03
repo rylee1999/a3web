@@ -64,18 +64,36 @@
   <!-- Project Section -->
 <h3>Careers</h3>	
   <div class="w3-container w3-padding-32 text-dive" id="projects">
-	 <h4>Book Keeper</h4> 
+<button class="dropdown_button"
+        onclick="show_list()">
+        <h4>Book Keeper</h4> 
+</button>
+<div id="Job">
 	<p>This role includes: </p>
 	<ul>
 	<li>Keeping the books</li>
 	</ul>
+</div>
 	<h5>Consulting Intern</h5>
  	<p> This role includes: </p>
 	<ul>
 	<li>Shadowing people from different departments</li>
 	</ul>
   </div>
-  
+ <script>
+        function show_list() {
+            var courses = document.getElementById(""Job");
+ 
+            if (courses.style.display == "block") {
+                courses.style.display = "none";
+            } else {
+                courses.style.display = "block";
+            }
+        }
+        window.onclick = function (event) {
+            
+        }    
+    </script> 
 <!-- End page content -->
 </div>
 

@@ -12,7 +12,7 @@
 <body>
 
 <!-- Navbar (sit on top) November 16,2023-->
-<div class="w3-top">
+<div class="w3-top topnav id="myTopnav">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
     <a href="index.html" class="w3-bar-item w3-button">True North Consulting</a>
     <!-- Float links to the right. -->
@@ -20,9 +20,12 @@
       <a href="about.html" class="w3-bar-item w3-button">About</a>
       <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
       <a href="contacts.html" class="w3-bar-item w3-button">Contact</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
       <div class="dropdown">
           <button class="dropbtn">More</button>
-          <div class="dropdown-content">
+          <div class="dropdown-content dropdown-menu-right">
               <a href="services.html">Services</a>
               <a href="newsletter.html">Newsletter</a>
               <a href="meetthemanagement.html">Meet the Management</a>
@@ -37,7 +40,6 @@
     </div>
   </div>
 </div>
-
 	
 <script>
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */

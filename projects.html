@@ -9,10 +9,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
+body {margin:0}
 <!-- Navbar (sit on top) November 16,2023-->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card topnav" id="myTopnav">
+<div class="w3-top" id="myTopnav">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card topnav">
     <a href="index.html" class="w3-bar-item w3-button">True North Consulting</a>
  
     <!-- Float links to the right. -->
@@ -45,7 +45,7 @@
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
   var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  if (x.className === "") {
     x.className += " responsive";
   } else {
     x.className = "topnav";

@@ -214,6 +214,48 @@ background-color:white!important;
   }
 }
 
+.navbar-toggle {
+position: relative;
+float: right;
+padding: 9px 10px;
+margin-top: 8px;
+margin-right: 15px;
+margin-botton: 8px;
+backgroun-color: transparent;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+
+.button{
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+webkit-apperance: button;
+cursor: pointer;
+text-transform: mone;
+overflow: visible;
+margin: 0;
+}
+.navbar-default .navbar-toggle .iconbar {
+  border-color: #ddd;
+  background-color: #888;
+  width: 22px;
+ height: 2px;
+border-raduis: 1px;
+}
+.navbar-collapse {
+padding-right: 15px;
+padding-left: 15px;
+overflow-x: visible;
+border-top: 1px solid transparent;
+box-shadow: insert 0 1px 0 rgba(255,255,255,.1);
+}
+.collapse.in{
+display:block;
+}
+
+
 /*Draft Footer started by Faith B.*/
 #FooterTitle{
     padding-bottom: 2px;

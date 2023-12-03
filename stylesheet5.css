@@ -135,7 +135,6 @@ text-align: center;
 padding: 14px 16px;
 color: black;
 }
-}
 .active {
   background-color: #f9f9f9;
   color: white;
@@ -163,8 +162,8 @@ color: black;
     background-color: white;
     text-align: center;
     cursor: pointer;
-    white-space: nowrap
-     margin:0;
+    white-space: nowrap;
+    margin:0;
 }
 
 
@@ -427,4 +426,5 @@ position: fixed;
     
 .ExpandingButton:hover{
     background-color: #377e55;
+}
 }

@@ -120,6 +120,7 @@ box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   float: right;
   display: block;
   color: black;
+ letter-spacing: 4px;
   text-align: center;
   text-decoration: none;
   font-family: Verdana,sans-serif;

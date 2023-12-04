@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> MEAFMR CONSULTING LLC </title>
+<title> True North Consulting </title>
+<link rel="shortcut icon" href="Images/TN_Logo.png">
 <link rel="stylesheet" href="stylesheet.css">
 <link id="g5style" rel="stylesheet" href="stylesheet5.css">
   <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
@@ -24,30 +25,27 @@
 <body>
 
 <!-- Navbar (sit on top) November 16,2023-->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="index.html" class="w3-bar-item w3-button"><img src="Images/TN_Logo.png" class="logo"></a>
-    <!-- Float links to the right. -->
-    <div class="w3-right w3-hide-small">
-      <a href="about.html" class="w3-bar-item w3-button">About</a>
-      <a href="projects.html" class="w3-bar-item w3-button">Projects</a>
-      <a href="contacts.html" class="w3-bar-item w3-button">Contact</a>
-      <div class="dropdown">
-          <button class="dropbtn">More</button>
-          <div class="dropdown-content">
-              <a href="services.html">Services</a>
-              <a href="newsletter.html">Newsletter</a>
-              <a href="meetthemanagement.html">Meet the Management</a>
-	      <a href="meetthetechs.html">Meet the Techs</a>
-              <a href="investors.html">Meet the Investors</a>
-              <a href="sustainability.html">Sustainability</a>
-	      <a href="gallery.html">Gallery</a>
-              <a href="careers.html">Careers</a>
-			  <button class ="g5stylebtn" id="display" type="button" onclick="dark()">Darkmode</button>
-          </div>
-      </div> 
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active1"> <img src="Images/TN_Logo.png" alt="Our Logo" class="logo" width="25" height="25"></a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Project</a>
+  <a href="contacts.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn dropdown-menu-right">More 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="services.html">Services</a>
+      <a href="newsletter.html">Newsletter</a>
+      <a href="meetthemanagement.html">Meet the Managment</a>
+      <a href="meetthetechs.html">Meet the Techs</a>
+      <a href="investors.html">Meet the Investors</a>
+      <a href="sustainability.html">Sustainability</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="careers.html">Careers</a>    
     </div>
-  </div>
+  </div> 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <!-- Header -->
@@ -59,27 +57,33 @@
 </header>
 
 <!-- Page content -->
-<div class="w3-content w3-padding content-div">
-
-  <!-- Project Section -->
   <div class="w3-container w3-padding-32 text-dive" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">Projects</h3>
+	<h1> True North Consulting </h1>
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding"></h3>
+	<h3>Guiding Your Path to Sustainable Success</h3>
+	  <p>At True North Consulting, we embark on a journey with you—a journey towards a future where sustainability and success coexist. We are more than consultants; we are your compass, navigating the complexities of business and environmental stewardship. 
+	   Welcome to a partnership that transcends industry norms, guiding you towards your True North.</p>  
+  	<h3>Our Commitment</h3>
+	  <p>At the core of True North Consulting is a commitment to creating lasting value for our clients and the environment. We understand that the intersection of business and sustainability is where true innovation thrives. 
+	   Our mission is to empower organizations to not only meet regulatory standards but to exceed them, fostering a legacy of responsible practices.</p>
+	<h3>Why Choose True North?</h3>
+	<ul>
+ 		<li> <b>Expertise that Matters: </b> Our team comprises seasoned experts in environmental consulting, 
+		each bringing a wealth of knowledge and a passion for sustainability to every project.</li>
+		<li> <b>Tailored Solutions:</b> Recognizing that each business is unique, we craft personalized solutions 
+		that align with your goals, ensuring a roadmap to success that suits your specific needs.</li>
+ 		<li><b>Innovation at the Forefront:</b> True North Consulting is committed to staying at the cutting edge of industry trends and technological advancements, 
+		offering you the most effective and sustainable solutions.</li>
+	</ul>
   </div>
-
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32 text-dive" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">About</h3>
-  </div>
-  
 <!-- End page content -->
-</div>
 
 
 <!-- Footer Faith-->
 <!-- Draft Footer by Faith-->
 <footer class="w3-center w3-padding-16 bottom" id="footer">
   <h2 id = "FooterTitle" >True North Consulting LLC</h2>
-  <p id = "FooterTagline">Tagline</p>
+  <p id = "FooterTagline">Moving Forward Together</p>
   <ul id="Footer-ul">
     <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
     <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="about.html">About</a></li>

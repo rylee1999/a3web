@@ -119,11 +119,10 @@ font-family:Verdana,sans-serif;
 
 .topnav {
 overflow: hidden;
-}
-
 text-decoration: none;
 margin: 0;
 }
+
 .topnav a {
 text-decoration: none;
 display: block;

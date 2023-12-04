@@ -435,6 +435,7 @@ position: fixed;
 .active,.ExpandingButton:hover{
     background-color: #1b451b;
 }
+/*The following is used from w3schools to create plus and minus for expanding content: https://www.w3schools.com/howto/howto_js_accordion.asp*/
 .ExpandingButton:after {
     content: '\002B';
     color: white;

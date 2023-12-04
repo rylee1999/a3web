@@ -459,9 +459,20 @@ position: fixed;
 .CenterThis{
     text-align: center;
   }
-
+/*put the pictures side by side*/
 .pictureSide {
   float: left;
   width: 25%;
   padding: 5px;
 }
+
+.styleButton{
+	background-color: #698d69;
+  	border: none;
+  	color: white;;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;

@@ -23,38 +23,35 @@
 <body>
 
 <!-- Navbar (sit on top) November 16,2023-->
-<div class="w3-top">
-	<div class="w3-bar w3-white w3-wide w3-padding w3-card">
-		<a href="index.html" class="w3-bar-item w3-button">TRUE NORTH CONSULTING</a>
-		<!-- Float links to the right. -->
-		<div class="w3-right w3-hide-small">
-			<a href="about.html" class="w3-bar-item w3-button">About</a>
-			<a href="projects.html" class="w3-bar-item w3-button">Projects</a>
-			<a href="contacts.html" class="w3-bar-item w3-button">Contact</a>
-			<div class="dropdown">
-				<button class="dropbtn">More</button>
-				<div class="dropdown-content">
-					<!--<a href="services.html">Services</a>-->
-					<a href="newsletter.html">Newsletter</a>
-					<a href="meetthemanagement.html">Meet the Management</a>
-					<a href="meetthetechs.html">Meet the Techs</a>
-					<a href="investors.html">Meet the Investors</a>
-					<a href="sustainability.html">Sustainability</a>
-					<a href="gallery.html">Gallery</a>
-					<a href="careers.html">Careers</a>
-					<button class ="g5stylebtn" id="display" type="button" onclick="dark()">Darkmode</button>
-				</div>
-			</div> 
-		</div>
-	</div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active1"> <img src="Images/TN_Logo.png" alt="Our Logo" class="logo" width="25" height="25"></a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Project</a>
+  <a href="contacts.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn dropdown-menu-right">More 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="services.html">Services</a>
+      <a href="newsletter.html">Newsletter</a>
+      <a href="meetthemanagement.html">Meet the Managment</a>
+      <a href="meetthetechs.html">Meet the Techs</a>
+      <a href="investors.html">Meet the Investors</a>
+      <a href="sustainability.html">Sustainability</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="careers.html">Careers</a>    
+    </div>
+  </div> 
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
 
 <!-- Header -->
-<header>
-	<div class="imageHeader">
-		<h1 class= "header-start">True North Consulting LLC</h1>
-		<p class = "header-end">Since 2023</p>
-	</div>
+<header class="imageHeader" >
+  <div>
+    <h1 class= "header-start"> True North Consulting LLC </h1>
+    <p class = "header-end"> Since 2023 </p>
+  </div>
 </header>
 
 <!-- Page content -->
@@ -90,32 +87,34 @@
 
 
 <!-- Footer Faith-->
-<!-- Draft Footer by Faith-->
 <footer class="w3-center w3-padding-16 bottom" id="footer">
-	<h2 id = "FooterTitle" >TRUE NORTH CONSULTING</h2>
-	<p id = "FooterTagline">Tagline</p>
-	<ul id="Footer-ul">
-		<!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
-		<li class = "Ft_Inline_Item"> <a class = "FT-Link"href="about.html">About</a></li>
-		<li class = "Ft_Inline_Item"> <a class = "FT-Link"href="careers.html">Careers</a></li>
-		<li class = "Ft_Inline_Item"> <a class = "FT-Link" href="contacts.html">Contact</a> </li>
-	</ul>
-	<!--to do a two column footer, the code and ideas from w3schools.com was used:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
-	<div class = "FT-row">
-		<div class="FT-columnA">
-			<h3>Follow Us</h3>
-			<!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-			<p><a href="#" class="fa fa-instagram"></a>@TRUENORTHCONSULTING</p>
-			<p>www.linkedin.com/in/TRUE NORTH CONSULTING</p>
-		</div>
-		<div class="FT-columnB">
-			<h3>Contact Us</h3>
-			<p> 577 River Road, Toronto, ON, L4P 6N4</p>
-			<p> 647-286-4220</p>
-		</div>
-	</div>
-	<!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
-	<p id="Copyright">&copy; 2023 TRUE NORTH CONSULTING. All rights reserved. </p>
+  <h2 id = "FooterTitle" >TRUE NORTH <br class= "Break650"> CONSULTING</h2>
+  <p id = "FooterTagline">Guiding The Way Forward</p>
+  <ul id="Footer-ul">
+    <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="about.html">About</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="careers.html">Careers</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="contacts.html">Contact</a> </li>
+  </ul>
+  <!--to do a two column footer, the code and ideas from w3schools.com was used:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
+  <div class = "FT-row">
+    <div class="FT-columnA">
+        <h3>Follow Us</h3>
+        <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+        <p><a href="#" class="fa fa-instagram"></a> @True_North_Consulting </p>
+        <p>www.linkedin.com/<br class= "Break650">in/TrueNorthConsulting </p>
+    </div>
+    <div class = "FT-columnM">
+      <img src="Images/TN_Logo.png" alt="True North Consulting north arrow logo." class ="R_Image">
+    </div>
+    <div class="FT-columnB">
+        <h3>Contact Us</h3>
+        <p> 577 River Road, Toronto, ON, L4P 6N4</p>
+        <p> 647-286-4220</p>
+    </div>
+  </div>
+  <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
+  <p id="Copyright">&copy; 2023 True North Consulting. All rights reserved. </p>
 </footer>
 
 </body>

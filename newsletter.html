@@ -124,27 +124,6 @@
 </div> 
 <script src="Scripts.js"></script>	
 <!-- End page content -->
-<script>
-  var acc = document.getElementsByClassName("ExpandingButton");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var Article = this.nextElementSibling;
-    if (Article.style.display === "block") {
-      Article.style.display = "none";
-    } else {
-      Article.style.display = "block";
-    }
-  });
-}
-</script>
-</div>
 
 
 <!-- Footer Faith-->
@@ -178,3 +157,4 @@ for (i = 0; i < acc.length; i++) {
   <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
   <p id="Copyright">&copy; 2023 True North Consulting. All rights reserved. </p>
 </footer>
+</body>

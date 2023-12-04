@@ -3,6 +3,7 @@
 /*Accordian function by FayB used for newsletter articles to apear when clicked*/
 function Accordian() {
     document.getElementsByClassName("ExpandingButton");
+    this.classList.toggle("active");
     var PlsWork = this.nextElementSibling;
     if (PlsWork.style.display === "none"){PlsWork.style.display = "block";
     }else{PlsWork.style.display = "none";}

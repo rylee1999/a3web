@@ -400,30 +400,51 @@ position: fixed;
 
 /*Newsletter specific css by FayB*/
 
-.container{
+#container{
     display: flex;
     flex-direction: column;
+    columns: 2;
     margin: 0 auto;
+    text-align: center;
 }
 .ExpandingButton{
     display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
     justify-content: space-between;
-    background-color: #4c704c7a;
-    color: black;
+    background-color: #698d69;
+    color: white;
     cursor: pointer;
     padding:1.5em;
     margin-bottom: .3em;
-    border:none;
+    border: black .5px;
     font-size: 15px;
+    font-weight: bold;
 }
 .Article {
-        display: none;
-        background-color: white;
-        overflow: hidden;
-        line-height: 1.5;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    line-height: 1.5;
+    text-align: justify;
 
     }
     
 .active,.ExpandingButton:hover{
-    background-color: #377e55;
+    background-color: #1b451b;
 }
+.ExpandingButton:after {
+    content: '\002B';
+    color: white;
+    font-size: 20px;
+}
+.active:after {
+    content: "\2212";
+    color: white;
+    font-size: 20px;
+  }
+.CenterThis{
+    text-align: center;
+  }

@@ -459,3 +459,9 @@ position: fixed;
 .CenterThis{
     text-align: center;
   }
+
+.pictureSide {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}

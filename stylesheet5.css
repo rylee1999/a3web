@@ -134,12 +134,10 @@ text-align: center;
  letter-spacing: 4px;
 padding: 14px 16px;
 color: black;
-margin-top: 5px;
 }
 .active1 {
   background-color:white;
   color: white;
-  margin-top: 0px;
 }
 
 .topnav .icon {
@@ -165,7 +163,7 @@ margin-top: 5px;
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
-    margin-top: 5px;
+    margin: 0;
 }
 
 

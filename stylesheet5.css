@@ -461,8 +461,6 @@ position: fixed;
   }
 /*put the pictures side by side*/
 .pictureSide {
-  max-width: 100%;
-  height: auto;
   float: left;
   width: 25%;
   padding: 5px;
@@ -472,7 +470,7 @@ position: fixed;
 .styleButton{
 	background-color: #698d69;
   	border: none;
-  	color: white;;
+  	color: white;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;

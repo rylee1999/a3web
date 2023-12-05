@@ -38,6 +38,7 @@
 .logo {
   max-width: 100%;
   height: auto;
+ padding-bottom: 5px;
 }
 
 #click {
@@ -98,6 +99,10 @@ h4, h5 {
 
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
 
+.topmargin {
+padding-top: 3px;
+}
+
 body{
 margin:0;
 font-family:Verdana,sans-serif;
@@ -134,6 +139,7 @@ text-align: center;
  letter-spacing: 4px;
 padding: 14px 16px;
 color: black;
+margin-top: 2px;
 }
 .active1 {
   background-color:white;

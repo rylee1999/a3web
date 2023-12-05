@@ -277,7 +277,7 @@ position: fixed;
 /* responsive layout to make the colums stack ontop of each other while being viewed in smaller screens*/
 
 @media screen and (max-width: 600px) {
-  .column {
+  .projcolumn {
     width: 100%;
   }
 }

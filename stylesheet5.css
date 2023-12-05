@@ -464,7 +464,7 @@ position: fixed;
   float: left;
   width: 25%;
   padding: 5px;
-  vertical-align: text-bottom;
+  vertical-align: sub;
 }
 
 .styleButton{

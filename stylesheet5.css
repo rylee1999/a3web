@@ -91,7 +91,7 @@ h4, h5 {
 
 .border-padding {
     border-bottom: 0px solid #ccc!important;
-	border-color: none;
+	/*border-color: none;*/
 	padding-top: 10px!important;
     padding-bottom: 10px!important;
 	border-color: #f1f1f1!important;

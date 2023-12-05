@@ -7,20 +7,7 @@
 <link id="g5style" rel="stylesheet" href="stylesheet5.css">
   <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script>
-	//switches the .css to our default sheet
-	function light() {
-		document.getElementById("g5style").href = "stylesheet5.css";
-		document.getElementById("display").innerHTML = "Darkmode";
-		document.getElementById("display").onclick = dark;
-	}
-	
-	function dark() {
-		document.getElementById("g5style").href = "darkmode.css";
-		document.getElementById("display").innerHTML = "Lightmode";
-		document.getElementById("display").onclick = light;
-	}
-</script>
+
 </head>
 <body>
 
@@ -59,41 +46,58 @@
 <!-- Page content -->
 <div class="w3-content w3-padding content-div">
 
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32 text-dive" id="projects">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">Investors</h3>
+   <!--Meet the Investors section by Matthew De Matos, adapted from Faith's design for Meet the Management-->
+   <div class = "FT-row">
+    <h2>Investors</h2>
+    <div class="FT-columnA">
+        <h3><img src="Images/ScroogeMcDuck.png" alt="Portrait of Scrooge McDuck" class ="R_Image img_round">Scrooge McDuck</h3>
+        <!--Bio created by ChatGPT from following prompt:Write a three-sentence-long biography for Scrooge McDuck -->
+	    
+        <p class="Left_Align">Scrooge McDuck is a Scottish billionaire known for his unmatched wealth and frugal demeanor. 
+	Starting from humble beginnings in Dismal Downs, Scotland, Scrooge built his fortune through successful ventures in mining and treasure hunting, 
+	earning him the title of the "World's Richest Duck." Despite his gruff exterior, Scrooge's adventures, alongside his nephews and loyal companions,
+	showcase a complex character with a soft spot for family and a zest for life's thrilling pursuits.</p>
+	    
+        <h3><img src="Images/MrKrabs.jpg" alt="Portrait of Mr. Krabs" class ="R_Image img_round">Eugene Harold Krabs</h3>
+        <!--Bio created by ChatGPT from following prompt: Write a three-sentence-long biography for Mr. Krabs -->
+	    
+        <p class="Right_Align"> Mr. Eugene Krabs, the penny-pinching crustacean from Bikini Bottom, is the shrewd and money-loving owner of the Krusty Krab. 
+	Mr. Krabs is characterized by his insatiable desire for profits, a love for counting money, and his famous catchphrase, 
+	"Arr, me hearties!" Despite his obsession with wealth, Mr. Krabs occasionally reveals a softer side, particularly when it
+	comes to his daughter, Pearl, showcasing a more nuanced and complex character beneath his money-focused exterior.          </p>
+   </div>
+	   
+    <div class="FT-columnB">
+        <h3>Arlene Dickinson<img src="Images/Arlene.jpg" alt="Portrait of Arlene Dickinson" class ="R_Image img_round"></h3>
+        <!--Bio created by ChatGPT from following prompt: Write a three-sentence-long biography for Arlene Dickinson --->
+	    
+        <p class="Left_Align">Arlene Dickinson is a prominent Canadian businesswoman, entrepreneur, and television personality, best known for her role
+	on the hit TV show "Dragons' Den." Born on October 8, 1956, in South Africa, she moved to Canada and co-founded Venture Communications,
+	a highly successful marketing communications agency. With her sharp business acumen, Dickinson has become a respected figure in the 
+	Canadian business landscape and a source of inspiration for aspiring entrepreneurs.
+	</p>
+	    
+        <h3>Alex Miller<img src="Images/AlexMiller.jpg" alt="Portrait of Alex Miller" class ="R_Image img_round"></h3>
+        <!--Bio created by ChatGPT from following prompt: Write a three-sentence-long biography for Alex Miller, CEO of Esri Canada -->
+        <p class="Right_Align"> Alex Miller is the esteemed CEO of Esri Canada, a leading geospatial technology company. With a rich background in geography 
+	and a passion for leveraging spatial intelligence, Miller has been instrumental in guiding Esri Canada to the forefront of the geospatial industry. 
+	Under his leadership, the company has consistently pioneered innovative solutions that harness the power of location-based data for diverse sectors,
+	solidifying Miller's reputation as a visionary leader in the field.
+          </p>
+    </div>
   </div>
-<p>Scrooge McDuck is a Scottish billionaire known for his unmatched wealth and frugal demeanor. 
-Starting from humble beginnings in Dismal Downs, Scotland, Scrooge built his fortune through successful ventures in mining and treasure hunting, 
-earning him the title of the "World's Richest Duck." Despite his gruff exterior, Scrooge's adventures, alongside his nephews and loyal companions,
-showcase a complex character with a soft spot for family and a zest for life's thrilling pursuits.</p>
-	<---! Write a three-sentence-long biography for Scrooge McDuck (ChatGPT)--->
-
-<p>Mr. Krabs, the penny-pinching crustacean from Bikini Bottom, is the shrewd and money-loving owner of the Krusty Krab. 
-Mr. Krabs is characterized by his insatiable desire for profits, a love for counting money, and his famous catchphrase, 
-"Arr, me hearties!" Despite his obsession with wealth, Mr. Krabs occasionally reveals a softer side, particularly when it
-comes to his daughter, Pearl, showcasing a more nuanced and complex character beneath his money-focused exterior.</p>
-	<----!Write a three-sentence-long biography for Mr. Krabs (ChatGPT)---->
-
-<p>Arlene Dickinson is a prominent Canadian businesswoman, entrepreneur, and television personality, best known for her role
-on the hit TV show "Dragons' Den." Born on October 8, 1956, in South Africa, she moved to Canada and co-founded Venture Communications,
-a highly successful marketing communications agency. With her sharp business acumen, Dickinson has become a respected figure in the 
-Canadian business landscape and a source of inspiration for aspiring entrepreneurs.</p>
-	<---!Write a three-sentence-long biography for Arlene Dickinson (ChatGPT)---->
-  
 <!-- End page content -->
 </div>
-
 
 <!-- Footer Faith-->
 <!-- Draft Footer by Faith-->
 <footer class="w3-center w3-padding-16 bottom" id="footer">
-  <h2 id = "FooterTitle" >MEAFMR CONSULTING LLC</h2>
-  <p id = "FooterTagline">Tagline</p>
+  <h2 id = "FooterTitle" >TRUE NORTH <br class= "Break650"> CONSULTING</h2>
+  <p id = "FooterTagline">Moving Forward Together</p>
   <ul id="Footer-ul">
     <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
-    <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="about.html">About</a></li>
-    <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="careers.html">Careers</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="about.html">About</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="careers.html">Careers</a></li>
     <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="contacts.html">Contact</a> </li>
   </ul>
   <!--to do a two column footer, the code and ideas from w3schools.com was used:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
@@ -101,8 +105,11 @@ Canadian business landscape and a source of inspiration for aspiring entrepreneu
     <div class="FT-columnA">
         <h3>Follow Us</h3>
         <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-        <p><a href="#" class="fa fa-instagram"></a> @MEAFMR_Consulting </p>
-        <p>www.linkedin.com/in/MEAFMR </p>
+        <p><a href="#" class="fa fa-instagram"></a> @True_North_Consulting </p>
+        <p>www.linkedin.com/<br class= "Break650">in/TrueNorthConsulting </p>
+    </div>
+    <div class = "FT-columnM">
+      <img src="Images/TN_Logo.png" alt="True North Consulting north arrow logo." class ="R_Image">
     </div>
     <div class="FT-columnB">
         <h3>Contact Us</h3>
@@ -111,7 +118,7 @@ Canadian business landscape and a source of inspiration for aspiring entrepreneu
     </div>
   </div>
   <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
-  <p id="Copyright">&copy; 2023 MEAFMR. All rights reserved. </p>
+  <p id="Copyright">&copy; 2023 True North Consulting. All rights reserved. </p>
 </footer>
 
 </body>

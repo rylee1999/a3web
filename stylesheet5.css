@@ -83,7 +83,7 @@ h4, h5 {
 .text-dive{
 	margin: auto;
 	box-sizing: inherit;
-	padding: none;
+	padding: 0px;
 	padding-top: 32px!important;
 	padding-bottom: 32px!important;
 }

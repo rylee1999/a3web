@@ -99,6 +99,10 @@ h4, h5 {
 
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
 
+.topmargin {
+padding-top: 3px;
+}
+
 body{
 margin:0;
 font-family:Verdana,sans-serif;

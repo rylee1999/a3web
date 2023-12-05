@@ -83,7 +83,7 @@ h4, h5 {
 .text-dive{
 	margin: auto;
 	box-sizing: inherit;
-	padding: none;
+	padding: 0px;
 	padding-top: 32px!important;
 	padding-bottom: 32px!important;
 }
@@ -91,7 +91,7 @@ h4, h5 {
 
 .border-padding {
     border-bottom: 0px solid #ccc!important;
-	border-color: none;
+	/*border-color: none;*/
 	padding-top: 10px!important;
     padding-bottom: 10px!important;
 	border-color: #f1f1f1!important;
@@ -160,6 +160,7 @@ margin-top: 2px;
     float: left;
     border: none;
     padding: 14px 16px;
+    margin-top: 2.5px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
@@ -217,7 +218,7 @@ background-color: #D3D3D3;
   background-color: #D3D3D3;
 }
 
-
+/* responsive to make navbar display in small screens*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -258,6 +259,33 @@ position: fixed;
   }
 
 }
+
+/* Project page started by Rylee G.*/
+
+.projcolumn {
+   float: left;
+   width: 50%;
+   padding: 20px;
+   height: 300px;
+}
+/* Clears the floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+	
+/* responsive layout to make the colums stack ontop of each other while being viewed in smaller screens*/
+
+@media screen and (max-width: 600px) {
+  .projcolumn {
+    width: 100%;
+  }
+}
+
+
+
+
 
 
 /*Draft Footer started by Faith B.*/

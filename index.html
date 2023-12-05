@@ -1,57 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title> True North Consulting </title>
-<link rel="shortcut icon" href="Images/TN_Logo.png">
-<link rel="stylesheet" href="stylesheet.css">
-<link id="g5style" rel="stylesheet" href="stylesheet5.css">
-  <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script>
-	//switches the .css to our default sheet
-	function light() {
-		document.getElementById("g5style").href = "stylesheet5.css";
-		document.getElementById("display").innerHTML = "Darkmode";
-		document.getElementById("display").onclick = dark;
-	}
-	
-	function dark() {
-		document.getElementById("g5style").href = "darkmode.css";
-		document.getElementById("display").innerHTML = "Lightmode";
-		document.getElementById("display").onclick = light;
-	}
-</script>
-</head>
-<body>
-
-<!-- Navbar (sit on top) November 16,2023-->
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active1"> <img src="Images/TN_Logo.png" alt="Our Logo" class="logo" width="25" height="25"></a>
-  <a href="about.html">About</a>
-  <a href="projects.html">Project</a>
-  <a href="contacts.html">Contact</a>
-  <div class="dropdown">
-    <button class="dropbtn dropdown-menu-right">More 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="services.html">Services</a>
-      <a href="newsletter.html">Newsletter</a>
-      <a href="meetthemanagement.html">Meet the Managment</a>
-      <a href="meetthetechs.html">Meet the Techs</a>
-      <a href="investors.html">Meet the Investors</a>
-      <a href="sustainability.html">Sustainability</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="careers.html">Careers</a>    
-    </div>
-  </div> 
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+<head lang="en">
+  <title> TRUE NORTH CONSULTING </title>
+  <link rel="stylesheet" href="stylesheet.css">
+    
+  <link id="g5style" rel="stylesheet" href="stylesheet5.css">
+    <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  
+  <!-- Navbar (sit on top) November 16,2023-->
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active1"> <img src="Images/TN_Logo.png" alt="Our Logo" class="logo" width="25" height="25"></a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Project</a>
+    <a href="contacts.html">Contact</a>
+    <div class="dropdown">
+      <button class="dropbtn dropdown-menu-right">More 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="services.html">Services</a>
+        <a href="newsletter.html">Newsletter</a>
+        <a href="meetthemanagement.html">Meet the Managment</a>
+        <a href="meetthetechs.html">Meet the Techs</a>
+        <a href="investors.html">Meet the Investors</a>
+        <a href="sustainability.html">Sustainability</a>
+        <a href="gallery.html">Gallery</a>  
+      </div>
+    </div> 
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
 
 <!-- Header -->
 <header class="imageHeader" >
   <div>
     <h1 class= "header-start"> True North Consulting LLC </h1>
+    <p class = "header-Middle">Moving Forward Together</p>
     <p class = "header-end"> Since 2023 </p>
   </div>
 </header>
@@ -59,7 +45,6 @@
 <!-- Page content -->
   <div class="w3-container w3-padding-32 text-dive" id="projects">
 	<h1> True North Consulting </h1>
-	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding"></h3>
 	<h3>Guiding Your Path to Sustainable Success</h3>
 	  <p>At True North Consulting, we embark on a journey with you—a journey towards a future where sustainability and success coexist. We are more than consultants; we are your compass, navigating the complexities of business and environmental stewardship. 
 	   Welcome to a partnership that transcends industry norms, guiding you towards your True North.</p>  
@@ -86,8 +71,8 @@
   <p id = "FooterTagline">Moving Forward Together</p>
   <ul id="Footer-ul">
     <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
-    <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="about.html">About</a></li>
-    <li class = "Ft_Inline_Item"> <a class = "FT-Link"href="careers.html">Careers</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="about.html">About</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="careers.html">Careers</a></li>
     <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="contacts.html">Contact</a> </li>
   </ul>
   <!--to do a two column footer, the code and ideas from w3schools.com was used:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
@@ -107,6 +92,6 @@
   <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
   <p id="Copyright">&copy; 2023 True North Consulting LLC. All rights reserved. </p>
 </footer>
-
+<script src="Scripts.js"></script>
 </body>
 </html>

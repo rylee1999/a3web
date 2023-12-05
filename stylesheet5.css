@@ -477,3 +477,10 @@ position: fixed;
   	margin: 4px 2px;
   	cursor: pointer;
 }
+
+/* Circular image class for Investors page - Matthew De Matos 
+From https://www.shecodes.io/athena/40835-how-to-round-an-image-in-html#:~:text=To%20make%20an%20image%20round,give%20it%20a%20circular%20shape.&text=This%20assumes%20that%20the%20img,image%20you%20want%20to%20round.*/
+.img_round {
+	border-radius: 50%;
+}
+

@@ -259,6 +259,33 @@ position: fixed;
 
 }
 
+/* Project page started by Rylee G.*/
+
+.projcolumn {
+   float: left;
+   width: 50%;
+   padding: 10px;
+   height: 300px;
+}
+/* Clears the floats after the columns */
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+	
+/* responsive layout to make the colums stack ontop of each other while being viewed in smaller screens*/
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
 
 /*Draft Footer started by Faith B.*/
 #FooterTitle{

@@ -26,4 +26,21 @@ function myFunction() {
   }
 }
 
-
+function pickles(sw) {
+ 	 var pic;
+  	if (sw == 0) {
+   	 pic = "7pickles.jpg"
+  	} else {
+    	pic = "9peicesofgum.jpg"
+ 	 }
+  	document.getElementById('myImage').src = pic;
+	}
+function grapes(sw) {
+ 	 var pic;
+  	if (sw == 0) {
+   	 pic = "grapes.png"
+  	} else {
+    	pic = "apples.jpg"
+ 	 }
+  	document.getElementById('myImage2').src = pic;
+	}

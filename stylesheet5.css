@@ -498,7 +498,7 @@ position: fixed;
 .pictureSide {
   float: left;
   width: 25%;
-  padding: 5px;
+  padding-left: 5%;
   vertical-align: sub;
 }
 

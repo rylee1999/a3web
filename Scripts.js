@@ -25,22 +25,22 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-
-function pickles(sw) {
+/* Javascript to toggle between two images inspired by w3 schools tutorial https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script_attribute Maya Ivimey*/
+function pickles(change) {
  	 var pic;
-  	if (sw == 0) {
-   	 pic = "7pickles.jpg"
+  	if (change == 0) {
+   	 pic = "Images/7pickles.jpg"
   	} else {
-    	pic = "9peicesofgum.jpg"
+    	pic = "Images/9peicesofgum.jpg"
  	 }
   	document.getElementById('myImage').src = pic;
 	}
-function grapes(sw) {
+function grapes(change) {
  	 var pic;
-  	if (sw == 0) {
-   	 pic = "grapes.png"
+  	if (change == 0) {
+   	 pic = "Images/grapes.png"
   	} else {
-    	pic = "apples.jpg"
+    	pic = "Images/apples.jpg"
  	 }
   	document.getElementById('myImage2').src = pic;
 	}

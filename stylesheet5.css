@@ -101,17 +101,16 @@ h4, h5 {
 	border-color: #f1f1f1!important;
 } 
 
-body{
-margin:0;
-font-family:Verdana,sans-serif;
-}
 
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
 /*this helped style the navbar page titles, helped center them on nabar*/
 .topmargin {
 padding-top: 3px;
 }
-
+body{
+margin:0;
+font-family:Verdana,sans-serif;
+}
 
 /* this keeps the dropdown menu on the left of screen to keep it from getting hidden on small screens*/
 .dropdown-menu-right {

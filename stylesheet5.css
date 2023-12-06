@@ -273,10 +273,7 @@ position: fixed;
   text-align: left;
 }
 .column2 {
-   float: left;
-   width: 50%;
-   padding-top: 80px;
-   padding-left: 20px;
+   margin-top: 60px;
  
 }
 

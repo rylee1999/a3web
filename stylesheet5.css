@@ -100,30 +100,30 @@ h4, h5 {
 	border-color: #f1f1f1!important;
 } 
 
+body{
+margin:0;
+font-family:Verdana,sans-serif;
+}
+
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
 /*this helped style the navbar page titles, helped center them on nabar*/
 .topmargin {
 padding-top: 3px;
 }
 
-body{
-margin:0;
-font-family:Verdana,sans-serif;
-}
 
-
-/* this keeps the dropdown menu on the left of screen*/
+/* this keeps the dropdown menu on the left of screen to keep it from getting hidden on small screens*/
 .dropdown-menu-right {
   
    left: auto !important;
 }
-
+/*creates a topnav*/
 .topnav {
 overflow: hidden;
 text-decoration: none;
 margin: 0;
 }
-
+./*creates styles for dropdown list in navbar*/
 .topnav a {
 text-decoration: none;
 display: block;
@@ -136,11 +136,13 @@ padding: 14px 16px;
 color: black;
 margin-top: 2px;
 }
+
+/* gives style to page titles that are actively on screen*/
 .active1 {
   background-color:white;
   color: white;
 }
-
+/* hamburger icon that is hidden when not on small screens*/
 .topnav .icon {
   display: none;
 }
@@ -150,7 +152,7 @@ margin-top: 2px;
     overflow: hidden;
     float: left;
 }
-
+/*dropdown menu styles*/
 .dropdown .dropbtn {
     float: left;
     border: none;
@@ -213,7 +215,7 @@ background-color: #D3D3D3;
   background-color: #D3D3D3;
 }
 
-/* responsive to make navbar display in small screens*/
+/* responsive section that makes navbar display in small screens, shows two different screens based on media screen size. Shows hamburger only in small screens*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -253,33 +255,6 @@ position: fixed;
     text-align: left;
   }
 }
-/* Project page started by Rylee G.*/
-
-.projcolumn {
-   width: 50%; 
-  
-
-}
-
-
-/* Clears the floats after the columns */
-.row:after {
-   content: "";
-   display: table;
-   clear: both;
-}
-	
-/* responsive layout to make the colums stack ontop of each other while being viewed in smaller screens*/
-
-@media screen and (max-width: 600px) {
-  .projcolumn {
-    width: 100%;
-    hieght: 100%; 
-  }
-
-}
-
-
 
 /*Draft Footer started by Faith B.*/
 #FooterTitle{

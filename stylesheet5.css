@@ -1,12 +1,10 @@
-/*responsive by Rylee G*/
+
 .imageHeader {
 	 /*background: #4C704C;*/
     background-image: url("Images/header-image.JPG");
     min-height: 30vh;
     background-size: cover;
     background-position: center;
-    max-width:100%;
-    max-height: auto;
 }
 .HeaderBoarder {
     background: #4C704C;

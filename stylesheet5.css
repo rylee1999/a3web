@@ -283,6 +283,7 @@ position: fixed;
 @media screen and (max-width: 600px) {
   .projcolumn {
     width: 100%;
+    hieght: 100%; 
   }
 
 }

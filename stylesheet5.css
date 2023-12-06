@@ -426,7 +426,10 @@ position: fixed;
         display: flex;
     }
 }
-
+.MMImage{
+  max-height: 100px;
+  max-width: 100px;
+}
 /*Newsletter specific css by FayB*/
 
 #container{

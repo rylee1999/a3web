@@ -164,7 +164,7 @@ margin-top: 2px;
     float: left;
     border: none;
     padding: 14px 16px;
-    margin-top: 2.5px;
+    margin-top: 2.5px !important;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;

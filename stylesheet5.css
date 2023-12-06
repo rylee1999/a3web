@@ -355,6 +355,12 @@ position: fixed;
     padding-right: 10%;
     margin-left: 5%;
 }
+.FT-columnc{
+    max-width: 50vw;
+    text-align: left;
+    padding-right: 10%;
+    margin-left: 5%;
+
 .FT-columnM{
     max-width: 50vw;
     padding-right: 60px;

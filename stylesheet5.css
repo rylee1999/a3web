@@ -430,6 +430,10 @@ position: fixed;
   max-height: 100px;
   max-width: 100px;
 }
+.R_ImageMap{
+  width: 100%;
+  height: 100%;
+}
 /*Newsletter specific css by FayB*/
 
 #container{

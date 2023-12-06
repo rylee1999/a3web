@@ -477,7 +477,7 @@ position: fixed;
     text-align: justify;
 
     }
-    
+/* creates an active button when hovering over the button Maya Ivimey*/    
 .active,.ExpandingButton:hover{
     background-color: #1b451b;
 }
@@ -495,14 +495,14 @@ position: fixed;
 .CenterThis{
     text-align: center;
   }
-/*put the pictures side by side*/
+/*put the pictures side by side Maya Ivimey*/
 .pictureSide {
   float: none;
   width: 25%;
   padding-left: 5%;
   vertical-align: sub;
 }
-
+/* Styles the buttons Maya Ivimey*/
 .styleButton{
 	background-color: #698d69;
   	border: none;

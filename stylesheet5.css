@@ -41,9 +41,9 @@
  padding-bottom: 5px;
 }
 
-#click {
-	display: none;
-}
+/*#click {
+	display: none;*/
+} 
 
 p {font-family: "Segoe UI",Arial,sans-serif;
    font-size: 18px;
@@ -101,7 +101,7 @@ h4, h5 {
 } 
 
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
-
+/*this helped style the navbar page titles, helped center them on nabar*/
 .topmargin {
 padding-top: 3px;
 }
@@ -112,18 +112,9 @@ font-family:Verdana,sans-serif;
 }
 
 
-
-/* The container <div> - needed to position the dropdown content */
-#iframe {
-    position: absolute;
-    width: 100%;
-    top: 0px;
-    bottom: 0px;
-    height: auto;
-}
-
+/* this keeps the dropdown menu on the left of screen*/
 .dropdown-menu-right {
-   right: auto !important;
+  
    left: auto !important;
 }
 

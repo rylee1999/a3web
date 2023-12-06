@@ -497,7 +497,7 @@ position: fixed;
   }
 /*put the pictures side by side*/
 .pictureSide {
-  float: left;
+  float: none;
   width: 25%;
   padding-left: 5%;
   vertical-align: sub;

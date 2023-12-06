@@ -380,9 +380,14 @@ position: fixed;
 }
 /*Responsive section by Faith and Rylee*/
 .R_Image{
-    width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
     text-decoration: none;
+}
+.R_Image1{
+  width: 100%;
+  height: auto;
+  text-decoration: none;
 }
 .Break650{
     display: none;
@@ -409,7 +414,7 @@ position: fixed;
     }
 	.FT-columnC{
         max-width: 100vw;
-        text-align: left;
+        text-align: justify;
         margin-left: 10px;
         margin-right: 10px;
         padding-right: 0%;

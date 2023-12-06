@@ -103,6 +103,7 @@ h4, h5 {
 
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
 /*this helped style the navbar page titles, helped center them on nabar*/
+/*source: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
 .topmargin {
 padding-top: 3px;
 }
@@ -379,6 +380,7 @@ position: fixed;
     font-size: 14px;
 }
 /*Responsive section by Faith and Rylee*/
+/*source: https://www.w3schools.com/howto/howto_css_image_responsive.asp*/
 .R_Image{
     width: 100px;
     height: 100px;

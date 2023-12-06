@@ -487,7 +487,7 @@ position: fixed;
   }
 /*put the pictures side by side Maya Ivimey*/
 .pictureSide {
-  float: none;
+  float: left;
   width: 25%;
   padding-left: 5%;
   vertical-align: sub;

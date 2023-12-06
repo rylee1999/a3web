@@ -15,7 +15,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
+/*java needed on the responsiv navbar*/
 /*Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon*/
 function myFunction() {
   var x = document.getElementById("myTopnav");

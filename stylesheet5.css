@@ -273,6 +273,8 @@ position: fixed;
 .column2 {
    margin-top: 150px;
   width: 50%;
+padding: 20px;
+  
 }
 
 /* Clears the floats after the columns */

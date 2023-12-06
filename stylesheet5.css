@@ -265,12 +265,11 @@ position: fixed;
 .projcolumn {
    float: left;
    width: 50%; 
-   padding: 40px;
+   margin-right: 10px;
+   margin-left: 10px;
   text-align: left;
 }
-.column2 {
-   margin-top: 150px; 
-}
+
 
 /* Clears the floats after the columns */
 .row:after {

@@ -1,4 +1,4 @@
-/*Image header by Faith*/
+/* Header image - owned by Faith B */
 .imageHeader {
     background-image: url("../Images/header-image.JPG");
     min-height: 30vh;
@@ -9,6 +9,8 @@
 .HeaderBoarder {
     background: #4C704C;
 }
+
+/* Header formatting - owned by April M */
 .header-start {
 	padding-top: 110px;
 	color: white;
@@ -101,8 +103,7 @@ h4, h5 {
 } 
 
 
-/* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
-/*this helped style the navbar page titles, helped center them on nabar*/
+/* Navbar - owned by Rylee G*/
 
 .topmargin {
 padding-top: 3px;
@@ -154,11 +155,12 @@ margin-top: 2px;
 
 /*added*/
 
+
+/* --- Dropdown menu in Navbar - owned by Matthew De Matos --*/
 .dropdown2 {
     overflow: hidden;
     float: left;
 }
-
 
 /* Dropdown Content, hidden by default */
 
@@ -190,8 +192,6 @@ margin-top: 2px;
     margin: 0;
 }
 
-
-
 /* Links inside the dropdown */
 
 .dropdown2-content a {
@@ -220,6 +220,7 @@ background-color: #D3D3D3;
   background-color: #D3D3D3;
 }
 
+/* Reponsive elements of Dropdown and Navbar - owned by Rylee G. */
 /* responsive section that makes navbar display in small screens, shows two different screens based on media screen size. Shows hamburger only in small screens*/
 
 @media screen and (max-width: 600px) {
@@ -296,7 +297,7 @@ position: fixed;
   
 }
 
-/*all Ft- items created by Faith */
+
 
 /*The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.*/
 #Footer-ul {

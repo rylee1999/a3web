@@ -100,6 +100,7 @@ h4, h5 {
 
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
 /*this helped style the navbar page titles, helped center them on nabar*/
+
 .topmargin {
 padding-top: 3px;
 }
@@ -109,17 +110,20 @@ font-family:Verdana,sans-serif;
 }
 
 /* this keeps the dropdown menu on the left of screen to keep it from getting hidden on small screens*/
+
 .dropdown-menu-right {
   
    left: auto !important;
 }
 /*creates a topnav*/
+
 .topnav {
 overflow: hidden;
 text-decoration: none;
 margin: 0;
 }
 /*creates styles for dropdown list in navbar*/
+
 .topnav a {
 text-decoration: none;
 display: block;
@@ -134,21 +138,38 @@ margin-top: 2px;
 }
 
 /* gives style to page titles that are actively on screen*/
+
 .active1 {
   background-color:white;
   color: white;
 }
 /* hamburger icon that is hidden when not on small screens*/
+
 .topnav .icon {
   display: none;
 }
 
 /*added*/
+
 .dropdown {
     overflow: hidden;
     float: left;
 }
+
+
+/* Dropdown Content, hidden by default */
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:4;
+}
+
 /*dropdown menu styles*/
+
 .dropdown .dropbtn {
     float: left;
     border: none;
@@ -167,19 +188,9 @@ margin-top: 2px;
 }
 
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: fixed;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index:4;
-}
-
-
 
 /* Links inside the dropdown */
+
 .dropdown-content a {
   float: none;
   color: black;
@@ -189,21 +200,25 @@ margin-top: 2px;
 }
 
 /* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {
 background-color: #D3D3D3;
 }
 
 /* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
+
 .topnav a:hover .dropdown:hover .dropbtn {
   background-color: #D3D3D3;
 }
 
 /* responsive section that makes navbar display in small screens, shows two different screens based on media screen size. Shows hamburger only in small screens*/
+
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child), .dropdown .dropbtn {
     display: none;
@@ -245,6 +260,7 @@ position: fixed;
 }
 
 /*Draft Footer started by Faith B.*/
+
 #FooterTitle{
     padding-bottom: 2px;
     margin-bottom: 0;

@@ -1,13 +1,16 @@
-
+/* Header image - owned by Faith B */
 .imageHeader {
     background-image: url("../Images/header-image.JPG");
     min-height: 30vh;
     background-size: cover;
     background-position: center;
 }
+/*Header classes done by April, edited by Faith*/
 .HeaderBoarder {
     background: #4C704C;
 }
+
+/* Header formatting - owned by April M */
 .header-start {
 	padding-top: 110px;
 	color: white;
@@ -27,6 +30,7 @@
 	padding-bottom: 25px;
     letter-spacing: 4px
 } 
+/*Header middle by Faith to add the tag line*/
 .header-Middle{ 
     color: white;
 	font-size: 16px;
@@ -35,13 +39,14 @@
 	padding-bottom: 1px;
     letter-spacing: 4px
 } 
+/*Logo class done by Matthew, image created by Faith*/
 .logo {
   max-width: 100%;
   height: auto;
  padding-bottom: 5px;
 }
 
-
+/*Basic h tags and and p tags done by April*/
 p {font-family: "Segoe UI",Arial,sans-serif;
    font-size: 18px;
         margin-left:18px;
@@ -98,8 +103,7 @@ h4, h5 {
 } 
 
 
-/* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
-/*this helped style the navbar page titles, helped center them on nabar*/
+/* Navbar - owned by Rylee G*/
 
 .topmargin {
 padding-top: 3px;
@@ -151,11 +155,12 @@ margin-top: 2px;
 
 /*added*/
 
+
+/* --- Dropdown menu in Navbar - owned by Matthew De Matos --*/
 .dropdown2 {
     overflow: hidden;
     float: left;
 }
-
 
 /* Dropdown Content, hidden by default */
 
@@ -187,8 +192,6 @@ margin-top: 2px;
     margin: 0;
 }
 
-
-
 /* Links inside the dropdown */
 
 .dropdown2-content a {
@@ -217,6 +220,7 @@ background-color: #D3D3D3;
   background-color: #D3D3D3;
 }
 
+/* Reponsive elements of Dropdown and Navbar - owned by Rylee G. */
 /* responsive section that makes navbar display in small screens, shows two different screens based on media screen size. Shows hamburger only in small screens*/
 
 @media screen and (max-width: 600px) {
@@ -260,7 +264,7 @@ position: fixed;
 }
 
 /*Draft Footer started by Faith B.*/
-
+/*Fotter title and tagline centered*/
 #FooterTitle{
     padding-bottom: 2px;
     margin-bottom: 0;
@@ -333,6 +337,7 @@ position: fixed;
 *{
     box-sizing: border-box;
 }
+/*Creates columns for footer and then reused for some pages*/
 .FT-columnA{
     max-width: 40vw;
     padding-left: 10%;
@@ -345,6 +350,8 @@ position: fixed;
     padding-right: 10%;
     margin-left: 5%;
 }
+/* only used for the footer for the logo image*/
+
 .FT-columnc{
     max-width: 50vw;
     text-align: left;
@@ -355,6 +362,7 @@ position: fixed;
     max-width: 50vw;
     padding-right: 60px;
 }
+/*created by faith*/
 #Copyright{
     text-align: center;
     font-size: 14px;
@@ -382,6 +390,7 @@ position: fixed;
 .Break650{
     display: none;
 }
+/*Media section below started by faith to make the columns respondive*/
 @media (max-width: 650px){
     .FT-row{
         display: flex ;
@@ -421,6 +430,8 @@ position: fixed;
   max-width: 100px;
 }
 .R_ImageMap{
+  max-width: 566px;
+  max-height: 393px;
   width: 100%;
   height: 100%;
 }
@@ -433,6 +444,7 @@ position: fixed;
     margin: 0 auto;
     text-align: center;
 }
+/*created by Faith for the accordian function*/
 .ExpandingButton{
     display: flex;
     margin-left: 10%;
@@ -447,6 +459,7 @@ position: fixed;
     font-size: 15px;
     font-weight: bold;
 }
+/*created by Faith for the accordian function*/
 .Article {
     margin-left: 15%;
     margin-right: 15%;

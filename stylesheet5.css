@@ -181,16 +181,6 @@ margin-top: 2px;
   z-index:4;
 }
 
-.dropdown-content-r {
-  display: none;
-  position: fixed;
-  right: 0;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index:4;
-}
-
 /* Links inside the dropdown */
 .dropdown-content a {
   float: none;

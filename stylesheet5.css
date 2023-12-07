@@ -341,7 +341,7 @@ position: fixed;
 *{
     box-sizing: border-box;
 }
-/*The folowing */
+/*The folowing done for footer and columns by Faith reference:https://www.w3schools.com/howto/howto_css_two_columns.asp*/
 .FT-columnA{
     max-width: 40vw;
     padding-left: 10%;
@@ -369,6 +369,7 @@ position: fixed;
     font-size: 14px;
 }
 /*Team Managment Page CSS By FaithB*/
+/*Justifys text to look better on each side of page*/
 .Left_Align{
     text-align: justify;
     font-size: 14px;
@@ -389,9 +390,11 @@ position: fixed;
   height: auto;
   text-decoration: none;
 }
+/*Break to allow for responsive design*/
 .Break650{
     display: none;
 }
+/* code for responisve design of the columns done by Faith*/
 @media (max-width: 650px){
     .FT-row{
         display: flex ;

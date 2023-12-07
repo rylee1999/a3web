@@ -147,12 +147,12 @@ margin-top: 2px;
 }
 
 /*added*/
-.dropdown {
+.dropdown2 {
     overflow: hidden;
     float: left;
 }
 /*dropdown menu styles*/
-.dropdown .dropbtn {
+.dropdown2 .dropbtn {
   font-family: Verdana,sans-serif I !important;
     float: left;
     border: none;
@@ -196,18 +196,18 @@ background-color: #D3D3D3;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdown2:hover .dropdown-content {
   display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.topnav a:hover,.dropdown:hover .dropbtn {
+.topnav a:hover,.dropdown2:hover .dropbtn {
   background-color: #D3D3D3;
 }
 
 /* responsive section that makes navbar display in small screens, shows two different screens based on media screen size. Shows hamburger only in small screens*/
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
+  .topnav a:not(:first-child), .dropdown2 .dropbtn {
     display: none;
   }
   .topnav a.icon {
@@ -233,13 +233,13 @@ background-color: #D3D3D3;
     display: block;
     text-align: left;
   }
-  .topnav.responsive .dropdown {
+  .topnav.responsive .dropdown2 {
 float: left;
   }
   .topnav.responsive .dropdown-content {
 position: fixed;
   }
-  .topnav.responsive .dropdown .dropbtn {
+  .topnav.responsive .dropdown2 .dropbtn {
     display: block;
     width: 100%;
     text-align: left;

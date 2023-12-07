@@ -1819,7 +1819,7 @@ a {
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
-  
+}
   /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;

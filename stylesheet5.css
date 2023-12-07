@@ -42,8 +42,6 @@
  padding-bottom: 5px;
 }
 
-/*#click {
-	display: none;*/ 
 
 p {font-family: "Segoe UI",Arial,sans-serif;
    font-size: 18px;
@@ -102,8 +100,9 @@ h4, h5 {
 
 
 /* Dropdown Menu - started by Matthew D and Rylee, made responsive by Rylee G.*/
-/*this helped style the navbar page titles, helped center them on nabar*/
+/*this helped style the navbar page titles, helped center them on navbar*/
 /*source: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
+
 .topmargin {
 padding-top: 3px;
 }
@@ -225,7 +224,7 @@ background-color: #D3D3D3;
     display: block;
   }
 }
-
+/* topnav.respnsive is the turned on when screen gets less than 600px, and the hamburger becomes available to click and view the dropdown of all the pages*/
 @media screen and (max-width: 600px) {
   .topnav.responsive a {
    float: none;
@@ -385,6 +384,7 @@ position: fixed;
     height: 100px;
     text-decoration: none;
 }
+/* usesd on larger images to make responsive and shrink the screen size*/
 .R_Image1{
   width: 100%;
   height: auto;

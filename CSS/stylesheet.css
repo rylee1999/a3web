@@ -1810,13 +1810,13 @@ a {
   overflow: hidden;
 }
 
-/* Dropdown button */
+/* Dropdown button 
 .dropdown .dropbutton {
   font-size: 16px;
   border: none;
   outline: none;
   padding: 8px 16px;
-  background-color: inherit;
+  background-color: inherit;*/
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
   

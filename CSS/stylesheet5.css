@@ -430,6 +430,8 @@ position: fixed;
   max-width: 100px;
 }
 .R_ImageMap{
+  max-width: 566px;
+  max-height: 393px;
   width: 100%;
   height: 100%;
 }

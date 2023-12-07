@@ -201,7 +201,7 @@ background-color: #D3D3D3;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.topnav a:hover,.dropdown2:hover .dropbtn {
+.topnav a:hover .dropdown2:hover .dropbtn {
   background-color: #D3D3D3;
 }
 

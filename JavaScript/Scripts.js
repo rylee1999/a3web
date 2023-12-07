@@ -14,7 +14,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
+/* java done by Rylee*/
 /*java needed on the responsiv navbar*/
 /*Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon*/
 function myFunction() {
@@ -25,6 +25,8 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+/* Rylee ends*/
+
 /* Javascript to toggle between two images inspired by w3 schools tutorial https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script_attribute Maya Ivimey*/
 function pickles(change) {
  	 var pic;
